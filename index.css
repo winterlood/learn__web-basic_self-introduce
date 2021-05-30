@@ -21,8 +21,7 @@ header {
 
     line-height: 50px;
 
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 .header_text {
     color: rgb(111, 34, 255);
@@ -32,12 +31,12 @@ header {
 .header_menu {
     width: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .menu_item {
     font-size: 14px;
     font-weight: lighter;
-    margin-left: 5px;
+    margin-left: 5%;
 }
 
 @media screen and (max-width: 768px) {
